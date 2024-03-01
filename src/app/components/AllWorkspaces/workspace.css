@@ -1,0 +1,375 @@
+/* For WebKit browsers (Chrome, Safari) and Edge */
+/* This targets the entire document */
+body {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+/* For WebKit browsers (Chrome, Safari) */
+/* This targets specific elements with the class */
+.flex-1.overflow-y-scroll {
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+.fl.overflow-y-scroll {
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+/* For Firefox */
+/* This targets specific elements with the class */
+.flex-1.overflow-y-scroll::-webkit-scrollbar {
+  width: 12px;
+}
+
+.flex-1.overflow-y-scroll::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.flex-1.overflow-y-scroll::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar {
+  height: 7px;
+}
+
+/* Style for Webkit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1160px) {
+  .pap {
+    margin-left: 160px;
+    left: 100px;
+  }
+}
+@media screen and (min-width: 1161px) and (max-width: 1279px) {
+  .pap {
+    margin-left: 168.7px;
+    left: 100px;
+  }
+}
+
+
+@media screen and (min-width: 1280px) and (max-width: 1420px) {
+  .pap {
+    margin-left: 160px;
+    left: 284px;
+  }
+}
+
+@media screen and (min-width: 1421px) and (max-width: 1480px) {
+  .pap {
+    margin-left: 165px;
+    left: 284px;
+  }
+}
+
+@media screen and (min-width: 1480px) and (max-width: 1525px) {
+  .pap {
+    margin-left: 170px;
+    left: 255px;
+  }
+}
+@media screen and (min-width: 1526px) and (max-width: 1618px) {
+  .pap {
+    margin-left: 177px;
+    left: 255px;
+  }
+}
+
+@media screen and (min-width: 1619px) and (max-width: 1658px) {
+  .pap {
+    margin-left: 184px;
+    left: 250px;
+  }
+}
+@media screen and (min-width: 1659px) and (max-width: 1840px) {
+  .pap {
+    margin-left: 193px;
+    left: 241px;
+  }
+}
+
+@media screen and (min-width: 1840px) and (max-width: 1980px) {
+  .pap {
+    margin-left: 208px;
+    left: 238px;
+  }
+}
+@media screen and (min-width: 1980px) and (max-width: 2400px) {
+  .pap {
+    margin-left: 230px;
+    left: 238px;
+  }
+}
+@media screen and (min-width: 2400px) and (max-width: 2800px) {
+  .pap {
+    margin-left: 290px;
+    left: 235px;
+  }
+}
+
+@media screen and (min-width: 2800px) and (max-width: 3500px) {
+  .pap {
+    margin-left: 150px;
+    left: 228px;
+  }
+}
+
+.adds {
+  background-color: #ffffff;
+  width: 35px;
+  border-radius: 50%;
+  padding: 5px;
+}
+.sideadd {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(#a076f9, #6528f7);
+  padding: 12px 20px;
+  border-radius: 15px;
+  margin-top: 20px;
+  cursor: pointer;
+  color: #ffffff;
+}
+.sideadd p {
+  font-size: 12px;
+  margin-top: 7px;
+}
+.sideitems {
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+.sideicon {
+  width: 25px;
+  margin-top: 30px;
+}
+.sideitems p {
+  font-size: 14px;
+  margin-top: 3px;
+}
+.sideitems:hover {
+  color: #6528f7;
+}
+.expicon {
+  width: 20px;
+}
+
+/* @media screen and (max-width:2000px){
+   .sidebar{
+       height: 102%;
+   }
+} */
+.createworkspacehid {
+  display: none;
+}
+.workspcreation {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #0000007e;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10; /* Increase the z-index to ensure it appears above other elements */
+}
+
+.crebox {
+  width: 550px;
+  height: 390px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 20px 25px;
+  z-index: 11; /* Make sure it's above the workspacecreation */
+  max-width: 80%; /* Set a maximum width to ensure it doesn't go too wide */
+}
+.createhead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.createhead h1 {
+  font-size: 20px;
+  font-weight: 800;
+  color: #000;
+}
+.createhead .icon {
+  width: 14px;
+  cursor: pointer;
+}
+.createboxinputs {
+  display: flex;
+  flex-direction: column;
+}
+.createboxinputs p {
+  font-size: 15px;
+  margin-top: 15px;
+  font-weight: 500;
+  color: #000;
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+.createboxinputs p span {
+  font-size: 10px;
+  color: grey;
+  margin-left: 3px;
+  font-weight: 500;
+  margin-top: 2px;
+}
+.createboxinputs input {
+  width: 100%;
+  border: 1px solid rgba(194, 191, 191, 0.856);
+  padding: 10px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  color: #000;
+}
+.createboxinputs textarea {
+  width: 100%;
+  border: 1px solid rgba(194, 191, 191, 0.856);
+  padding: 10px 10px;
+  border-radius: 7px;
+  font-size: 12px;
+  color: #000;
+}
+.createboxbtn {
+  display: flex;
+  justify-content: end;
+}
+.createboxbtn button {
+  color: #000;
+  border: 1px solid rgb(187, 184, 184);
+  font-size: 14px;
+  padding: 8px 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.createboxbtn .savebtn {
+  background: #6528f7;
+  border: none;
+  color: #ffffff;
+}
+
+.edits {
+  cursor: pointer;
+}
+
+.createworkspacehid {
+  display: none;
+}
+.workspaceedit {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #0000007e;
+  /* height: 100vh; */
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+}
+.editbox {
+  width: 550px;
+  height: 440px;
+  background-color: #ffffff;
+  justify-self: center;
+  margin-left: 0;
+  border-radius: 15px;
+  padding: 20px 25px;
+}
+.createhead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.createhead h1 {
+  font-size: 20px;
+  font-weight: 800;
+  color: #000;
+}
+.createhead .icon {
+  width: 14px;
+  cursor: pointer;
+}
+.createboxinputs {
+  display: flex;
+  flex-direction: column;
+}
+.createboxinputs p {
+  font-size: 15px;
+  margin-top: 15px;
+  font-weight: 500;
+  color: #000;
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+.createboxinputs p span {
+  font-size: 10px;
+  color: grey;
+  margin-left: 3px;
+  font-weight: 500;
+  margin-top: 2px;
+}
+.createboxinputs input {
+  width: 100%;
+  border: 1px solid rgba(194, 191, 191, 0.856);
+  padding: 10px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  color: #000;
+}
+.createboxinputs textarea {
+  width: 100%;
+  border: 1px solid rgba(194, 191, 191, 0.856);
+  padding: 10px 10px;
+  border-radius: 7px;
+  font-size: 12px;
+  color: #000;
+}
+.createboxbtn {
+  display: flex;
+  justify-content: end;
+}
+.createboxbtn button {
+  color: #000;
+  border: 1px solid rgb(187, 184, 184);
+  font-size: 14px;
+  padding: 8px 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.createboxbtn .savebtn {
+  background: #6528f7;
+  border: none;
+  color: #ffffff;
+}
+.createboxinputs select {
+  width: 100%;
+  border: 1px solid rgba(194, 191, 191, 0.856);
+  padding: 10px 40px 10px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  color: grey;
+}

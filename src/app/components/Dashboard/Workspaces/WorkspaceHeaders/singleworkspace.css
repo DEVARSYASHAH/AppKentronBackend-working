@@ -1,0 +1,42 @@
+.singleworkspace{
+    color: #000;
+    width: 96%;
+    margin: 25px;
+}
+.singleworkspace h1{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.workspaceheaders{
+    display: flex;
+    width: 1000px;
+}
+.headitems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+    cursor: pointer;
+    border-bottom: 1px solid grey;
+}
+.headitems:hover{
+    color: #6528F7;
+    font-weight: 600;
+    border-bottom: 2px solid #6528F7;
+}
+.headbold{
+    color: #6528F7;
+    font-weight: 600;
+    border-bottom: 2px solid #6528F7;
+}
+
+.headicons{
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 5px;
+}
+.headitems p{
+    font-size: 12px;
+}
+

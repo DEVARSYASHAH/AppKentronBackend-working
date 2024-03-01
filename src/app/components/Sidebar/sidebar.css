@@ -1,0 +1,201 @@
+.sidebar{
+    width: 9%;
+    height: 88vh;
+    /* height: 88vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+    .sidebar{
+        width: 15%;
+        height: 88vh;
+        /* height: 88vh; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #ffffff;
+    }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1480px) {
+    .sidebar{
+        width: 12%;
+        height: 88vh;
+        /* height: 88vh; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #ffffff;
+    }
+}
+
+@media only screen and (min-width: 1480px) and (max-width: 1660px) {
+    .sidebar{
+        width: 10%;
+        height: 88vh;
+        /* height: 88vh; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #ffffff;
+    }
+}
+
+@media only screen and (min-width: 1660) and (max-width: 2000px) {
+    .sidebar{
+        width: 9%;
+        height: 88vh;
+        /* height: 88vh; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #ffffff;
+    }
+}
+
+
+
+.adds{
+   background-color: #ffffff;
+   width: 35px;
+   border-radius: 50%;
+   padding: 5px;
+}
+.sideadd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient( #A076F9,#6528F7);
+    padding: 12px 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: #ffffff;
+}
+.sideadd p{
+    font-size: 12px;
+    margin-top: 7px;
+}
+.sideitems{
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.sideicon{
+    width: 25px;
+    margin-top: 30px;
+}
+.sideitems p{
+    font-size: 14px;
+    margin-top: 3px;
+}
+.sideitems:hover{
+    color: #6528F7;
+}
+.expicon{
+    width: 20px;
+}
+
+/* @media screen and (max-width:2000px){
+    .sidebar{
+        height: 102%;
+    }
+} */
+.createworkspacehid{
+    display: none;
+}
+.workspacecreation{
+    position: absolute;
+    width: 185%;
+    height: 100%;
+    background: #0000007e;
+    /* height: 100vh; */
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.createbox{
+    width: 550px;
+    height: 390px;
+    background-color: #ffffff;
+    justify-self: center;
+    margin-left: 45%;
+    border-radius: 15px;
+    padding: 20px 25px;
+    z-index: 10;
+}
+.createhead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.createhead h1{
+    font-size: 20px;
+    font-weight: 800;
+    color: #000;
+}
+.createhead .icon{
+    width: 14px;
+    cursor: pointer;
+}
+.createboxinputs{
+    display: flex;
+    flex-direction: column;
+}
+.createboxinputs p{
+    font-size: 15px;
+    margin-top: 15px;
+    font-weight: 500;
+    color: #000;
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+}
+.createboxinputs p span{
+    font-size: 10px;
+    color: grey;
+    margin-left: 3px;
+    font-weight: 500;
+    margin-top: 2px;
+}
+.createboxinputs input{
+    width: 100%;
+    border: 1px solid rgba(194, 191, 191, 0.856);
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #000;
+}
+.createboxinputs textarea{
+    width: 100%;
+    border: 1px solid rgba(194, 191, 191, 0.856);
+    padding: 10px 10px;
+    border-radius: 7px;
+    font-size: 12px;
+    color: #000;
+}
+.createboxbtn{
+    display: flex;
+    justify-content: end;
+}
+.createboxbtn button{
+    color: #000;
+    border: 1px solid rgb(187, 184, 184);
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.createboxbtn .savebtn{
+    background: #6528F7;
+    border: none;
+    color: #ffffff;
+}

@@ -1,0 +1,411 @@
+
+/* datasource */
+/* @media screen and (max-width:1200px) {
+    .datasource{
+        height: 1000px;
+        overflow-y: hidden;
+    }
+} */
+.datasource{
+    width: 100%;
+    /* overflow-x: scroll; */
+    height: 77vh;
+    padding-bottom: 40px ;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+.enterprise{
+    width: 900px;
+}
+.enterpriseproducts{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.enterprise h1{
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    /* overflow: hidden; */
+}
+.product{
+    width: 180px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(233, 233, 233, 1);
+    border-radius: 8px;
+    margin-right: 18px;
+}
+/* .product Image{
+    width: 00px;
+} */
+.dataicons{
+    width: 85px;
+    margin-bottom: 4px;
+    margin-right: 5px;
+}
+.connectbtnicon{
+    margin-right: 5px;
+}
+.btnimporticon{
+    margin-right: 5px;
+    font-size: 5px;
+}
+.product button{
+    display: flex;
+    color: #ffffff;
+    background-color: #6528F7;
+    align-items: center;
+    font-size: 10px;
+    padding: 5px 46px;
+    border-radius: 8px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f4f4f4;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(202, 201, 201);
+    border-radius: 8px;
+  }
+
+  /* General style for all browsers */
+::-webkit-scrollbar {
+    height: 7px;
+  }
+  
+  /* Style for Webkit browsers (Chrome, Safari, Edge) */
+  ::-webkit-scrollbar-track {
+    background-color: #f5f5f5;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+  }
+  
+
+
+  /* Slack Enterprise */
+.slackenterprise{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: #0000007e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+}
+.slackhid{
+    display: none;
+}
+.enterprisecont{
+    width: 720px;
+    height: 535px;
+    border-radius: 15px;
+    background: #fff;
+    padding: 20px 30px;
+}
+.SEheadercont{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.SEheader{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.SEheader p{
+    font-size: 18px;
+    font-weight: 800;
+    margin-left: 7px;
+}
+.close{
+    cursor: pointer;
+}
+.enterpriseroadmap{
+    background: rgba(243, 243, 243, 1);
+    width: 100%;
+    border-radius: 10px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+}
+.Enterprisebody{
+    display: flex;
+    flex-direction: column;
+}
+.datecont{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.datecont .createboxinputs{
+    width: 48.5%;
+}
+.slackenterprisebtn{
+    padding: 15px 0;
+}
+.nextbtn{
+    margin-right: 0;
+}
+
+
+.roadmapicon{
+    display: flex;
+    position: relative;
+}
+.roadmapicon .roadiconcont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 75px;
+    padding: 0;
+    background-color: #f4f4f4;
+    margin: 0 20px;
+}
+.roadmapicon .roadiconcont p{
+    font-size: 12px;
+    margin-top: 5px;
+}
+.purbg{
+    color: #6528F7;
+    font-size: 6px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 14px;
+    background-color: rgba(237, 228, 255, 1);
+}
+.whitebg{
+    color: #0f0f0f;
+    font-size: 6px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+    background-color: #ffffff;
+}
+.whitebgtext{
+    color: rgb(168, 168, 168);
+    font-weight: 500;
+}
+.purptext{
+    color:#6528F7;
+    font-weight: 700;
+
+}
+.greenbg{
+    color: #ffffff;
+    font-size: 6px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+    background-color: rgba(66, 190, 101, 1);
+}
+.greentext{
+    color: rgba(66, 190, 101, 1);
+    font-weight: 700;
+}
+.purpline{
+    background:rgba(237, 228, 255, 1);
+}
+.whiteline{
+    background: #ffffff;
+}
+.greenline{
+    background-color: rgba(66, 190, 101, 1);
+}
+
+.roadmapicon .purline1{
+    width: 57px;
+    height: 2px;
+    margin-top: 27px;
+    position: absolute;
+    z-index: 100000;
+    left: 70px;
+}
+
+.roadmapicon .purline2{
+    width: 84px;
+    height: 2px;
+    margin-top: 27px;
+    position: absolute;
+    z-index: 100000;
+    left:87px;
+}
+.roadmapicon .purline3{
+    width: 64px;
+    height: 2px;
+    margin-top: 27px;
+    position: absolute;
+    z-index: 100000;
+    left: 95px;
+}
+.roadmapicon .purline4{
+    width: 52px;
+    height: 2px;
+    margin-top: 27px;
+    position: absolute;
+    z-index: 100000;
+    left: 70px;
+}
+
+.closehid{
+    display: none;
+}
+.closeback{
+    display: none;
+}
+
+
+
+
+
+
+
+
+.Synchronization{
+    padding-left: 20px ;
+    padding-top: 10px;
+    margin-bottom: 22px;
+}
+
+.Synchronization p{
+    color: rgb(145, 145, 145);
+    font-size: 14px;
+}
+.Synchronization .radiobuttons{
+    display: flex;
+    align-items: center;
+}
+.radiobuttons{
+    padding-left: 15px ;
+    margin-top: 7px;
+}
+.radiobuttons .radioicons{
+    margin: 0 5px 0 10px;
+    color: #6528F7;
+}
+
+.radiobuttons input[type="radio"] { 
+   color: #6528F7; 
+   background-color: #6528F7;
+}
+.radiobuttons p{
+    color: #0f0f0f;
+    font-size: 14px;
+} 
+.checkboxheader{
+    margin-top: 25px;
+}
+.checkbox{
+    display: flex;
+    margin-top: 8px;
+}
+.checkbox p{
+    color: #0f0f0f;
+    margin-left: 8px;
+}
+.checkbox input[type="checkbox"]{
+    background-color: #6528F7;
+    color: #6528F7;
+}
+
+.component{
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 79px;
+}
+
+.component .checkbox{
+    display: flex;
+    align-items: center;
+}
+.checkicons{
+    color: #0f0f0f;
+    font-size: 14px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    margin-left: 6px;
+}
+
+
+
+
+
+/* Adduser */
+.Adduser{
+    margin-bottom: 132px;
+}
+.addusertext{
+    margin-top: 0;
+    font-size: 12px;
+    margin-top: 10px;
+    color: rgb(161, 161, 161);
+}
+
+/* Add Channel */
+.Addchannel{
+    font-size: 13px;
+    margin-bottom: 25px;
+}
+.Addchannel .checkbox{
+    display: flex;
+    align-items: center;
+}
+.filterhead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.channeltypes{
+    display: flex;
+    font-size: 14px;
+}
+.channel1{
+    display: flex;
+    color: rgb(153, 152, 152);
+    align-items: center;
+    font-size: 12px;
+    margin:0 5px;
+    margin-top: 10px;
+}
+.channel1 span{
+    color: #000;
+    margin-right: 2px;
+}
+
+
+
+.nonenterprisecont{
+    width: 650px;
+    height: 350px;
+    border-radius: 15px;
+    background: #fff;
+    padding: 20px 30px;
+}
+input[type="file"]{
+    color: #6528F7;
+}

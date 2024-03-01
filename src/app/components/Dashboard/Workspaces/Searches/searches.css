@@ -1,0 +1,28 @@
+.scrollmain{
+    /* width */
+::-webkit-scrollbar {
+    width: 1px;
+  }
+
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: white; 
+    border-radius: 1px;
+  }
+  
+}
+
+/* input[type="checkbox"] {
+  margin: 2px;
+  background-color: none;
+  border: 1px solid red !important;
+  border-radius: 4px;
+  outline: none;
+}
+
+input[type="checkbox"]:checked {
+  background-color: none;
+  border: 1px solid red !important;
+} */
+
